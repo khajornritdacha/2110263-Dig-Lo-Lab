@@ -1,0 +1,4 @@
+let A = (a&!b&!c) | (!a&b&!c&d) | (!a&c&d);
+let B = (!a&b&c) | (!a&b&!d) | (!b&!c&d);
+let C = (a&!b&!c) | (!a&c&!d) | (!a&b&!c&d);
+let D = (!b&!c&d) | (!a&b&!c&d) | (!a&c&d)

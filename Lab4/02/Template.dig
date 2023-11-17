@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>In</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="-380" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Output</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Block_A.dig</elementName>
+      <elementAttributes/>
+      <pos x="-320" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Block_B.dig</elementName>
+      <elementAttributes/>
+      <pos x="-180" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>XOr</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="-20" y="-100"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-60" y="-100"/>
+      <p2 x="-20" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="-40"/>
+      <p2 x="-180" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="-360" y="-120"/>
+      <p2 x="-60" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="-60"/>
+      <p2 x="-180" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="-60"/>
+      <p2 x="-20" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="-380" y="-80"/>
+      <p2 x="-360" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="-80"/>
+      <p2 x="-180" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="-80"/>
+      <p2 x="180" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="-360" y="-80"/>
+      <p2 x="-320" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="-360" y="-120"/>
+      <p2 x="-360" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="-120"/>
+      <p2 x="-60" y="-100"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
